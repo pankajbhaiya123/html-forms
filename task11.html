@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Basic Information Form</title>
+</head>
+<body>
+  <h2>Basic Information Form</h2>
+  
+  <form>
+    <label for="name">Name:</label>
+    <input type="text" id="name" name="name" required><br><br>
+
+    <label for="mobile">Mobile No:</label>
+    <input type="tel" id="mobile" name="mobile" required><br><br>
+
+    <label for="email">Email Address:</label>
+    <input type="email" id="email" name="email" required><br><br>
+
+    <label>Gender:</label>
+    <input type="radio" id="male" name="gender" value="male" required>
+    <label for="male">Male</label>
+    <input type="radio" id="female" name="gender" value="female" required>
+    <label for="female">Female</label><br><br>
+
+    <label>Education:</label>
+    <input type="checkbox" id="school" name="education" value="school">
+    <label for="school">School</label>
+    <input type="checkbox" id="college" name="education" value="college">
+    <label for="college">College</label>
+    <input type="checkbox" id="university" name="education" value="university">
+    <label for="university">University</label><br><br>
+
+    <label for="study?">Do you like study?</label>
+    <select id="study?" name="tea" required>
+      <option value="" disabled selected>Select an option</option>
+      <option value="yes">Yes</option>
+      <option value="no">No</option>
+    </select><br><br>
+
+    <input type="submit" value="Submit">
+    <input type="reset" value="Reset">
+  </form>
+</body>
+</html>
